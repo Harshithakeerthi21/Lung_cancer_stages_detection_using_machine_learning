@@ -26,11 +26,11 @@ The model uses the IQ-OTH/NCCD Lung Cancer CT Scan Dataset, a publicly available
 
 ## Machine Learning Models
 
-The proposed model is implemented in the xception+mobilenetv2.py file and is designed to classify lung cancer CT scan images into three categories: Normal, Benign, and Malignant. It is a hybrid model that leverages the strengths of two powerful deep learning architectures—Xception and MobileNetV2. Xception improves feature extraction by using depthwise separable convolutions, which enhances accuracy without significantly increasing computational cost. MobileNetV2, on the other hand, is optimized for speed and efficiency, making it ideal for lightweight applications. By combining these two models, the hybrid architecture achieves a balance between high performance and computational efficiency, making it well-suited for medical image classification tasks.
+The proposed model is implemented in the 'xception+mobilenetv2.py' file and is designed to classify lung cancer CT scan images into three categories: Normal, Benign, and Malignant. It is a hybrid model that leverages the strengths of two powerful deep learning architectures—Xception and MobileNetV2. Xception improves feature extraction by using depthwise separable convolutions, which enhances accuracy without significantly increasing computational cost. MobileNetV2, on the other hand, is optimized for speed and efficiency, making it ideal for lightweight applications. By combining these two models, the hybrid architecture achieves a balance between high performance and computational efficiency, making it well-suited for medical image classification tasks.
 
 ## Streamlit
 
-The  contains the Streamlit web application for deploying and interacting with the lung cancer prediction model. The application allows users to upload CT scan images and receive predictions for the corresponding lung cancer stage—Normal, Benign, or Malignant (Stages 1–3).
+The 'final.py' contains the Streamlit web application for deploying and interacting with the lung cancer prediction model. The application allows users to upload CT scan images and receive predictions for the corresponding lung cancer stage—Normal, Benign, or Malignant (Stages 1–3).
 
 ## Comparisions
 
