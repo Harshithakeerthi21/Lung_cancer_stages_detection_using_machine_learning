@@ -8,11 +8,17 @@ This repository contains a hybrid deep learning model for predicting lung cancer
 
 ## Table of Contents
 
-1. [Datasets](#datasets)
-2. [Machine Learning Models](#machine-learning-models)
-3. [Streamlit](#streamlit)
-4. [Comparisions](#comparisions)
+1. [Proposed Model](#proposed-model)
+2. [Datasets](#datasets)
+3. [Machine Learning Models](#machine-learning-models)
+4. [Streamlit](#streamlit)
+5. [Comparisions](#comparisions)
 
+
+## Proposed Model
+
+![image](https://github.com/user-attachments/assets/52cc9eff-360a-4a7b-bd9a-c0c8fd71c1c5)
+The architecture illustrates a complete lung CT scan image classification system using a hybrid deep learning model combining Xception and MobileNetV2. The process starts with a user-friendly interface where users can register, log in, and upload CT scan images. Uploaded images undergo preprocessing such as normalization, resizing, and augmentation to prepare for analysis. The preprocessed image is passed to the hybrid model, where MobileNetV2 extracts fast, efficient features and Xception captures deeper patterns. The combined features are used to classify the image into Normal, Benign, or Malignant Stages 1–3. The results are interpreted, a report is generated, and it's delivered to the user via the interface and stored for future use.
 
 ## Datasets
 
