@@ -11,6 +11,7 @@ This repository contains a hybrid deep learning model for predicting lung cancer
 1. [Datasets](#datasets)
 2. [Machine Learning Models](#machine-learning-models)
 3. [Streamlit](#streamlit)
+4. [Comparisions](#comparisions)
 
 
 ## Datasets
